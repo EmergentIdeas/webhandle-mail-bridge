@@ -1,0 +1,23 @@
+__::start__
+
+<form action="/contact" method="post" class="google-recaptcha-form">
+	<label>
+		Name
+		<input name="name" type="text" required />	
+	</label>
+	<label>
+		Email
+		<input name="email" type="text" required />	
+	</label>
+	<label>
+		Message
+		<textarea name="message"></textarea>
+	</label>
+	
+	<br>
+	<button type="submit">Send</button>
+</form>
+
+__::@webhandle/mail-bridge/makeFormsRecaptcha__
+
+__::end__

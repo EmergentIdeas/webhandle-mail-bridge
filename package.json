@@ -1,0 +1,32 @@
+{
+  "name": "@webhandle/mail-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "export webhandleConfigFile=test-conf/conf.json; run-webhandle-dev ./test/start.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmergentIdeas/webhandle-mail-bridge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/EmergentIdeas/webhandle-mail-bridge/issues"
+  },
+  "homepage": "https://github.com/EmergentIdeas/webhandle-mail-bridge#readme",
+  "dependencies": {
+    "@webhandle/initialize-webhandle-component": "^1.0.4",
+    "filter-log": "^1.0.13",
+    "nodemailer": "^8.0.5",
+    "striptags": "^3.2.0"
+  }
+  , "files": [
+	"*.mjs"
+	, "README.md"
+	, "public/js"
+  ]
+}

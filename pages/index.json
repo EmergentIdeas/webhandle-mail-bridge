@@ -1,0 +1,10 @@
+{
+	"@dankolz/news-flash": {
+		"storyQueries": {
+			"all": {}
+		}
+		, "typesQueries": {
+			"all": {}
+		}
+	}
+}
